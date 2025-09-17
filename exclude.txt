@@ -59,6 +59,7 @@ Thumbs.db
 
 # VS Code
 .config/Code/logs/
+.config/Code/Cache/*
 .config/Code/CachedData/*
 
 # golang Cache
