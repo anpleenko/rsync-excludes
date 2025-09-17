@@ -17,10 +17,49 @@ lost+found/*
 /var/backups/*
 .Private
 /swapfile
+
 # Discord files
 # See also: https://github.com/bit-team/backintime/issues/1555#issuecomment-1787230708
 SingletonLock
 SingletonCookie
+
 # Mozilla files
 # See also: https://github.com/bit-team/backintime/issues/1555#issuecomment-1787111063
 lock
+
+# Flatpack
+.var/app/*/cache
+.var/app/*/.cache
+
+# Recently used files
+.local/share/RecentDocuments
+.recently-used
+.recently-used.xbel
+recently-used.xbel
+.thumbnails
+.thumb
+Thumbs.db
+.DS_Store
+.localised
+.CFUserTextEncoding
+.zcompdump*
+.wget-hsts
+
+# Thunderbird Cache in your profile folder
+.thunderbird/*/Cache
+
+#Google Chrome:
+.config/google-chrome/ShaderCache
+.config/google-chrome/*/Local Storage
+.config/google-chrome/*/Session Storage
+.config/google-chrome/*/Application Cache
+.config/google-chrome/*/History Index *
+.config/google-chrome/*/Service Worker/CacheStorage
+.config/google-chrome/*/WebStorage/*/CacheStorage
+
+# VS Code
+.config/Code/logs/
+.config/Code/CachedData/*
+
+# golang Cache
+go/pkg/mod/cache
