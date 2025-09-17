@@ -372,9 +372,6 @@ nohup.out
 .viminfo
 
 # VS Code
-.vscode-oss/extensions/*
-.vscode/extensions/*
-.config/Code - OSS/logs/
 .config/Code/logs/
 .config/Code/CachedData/*
 
