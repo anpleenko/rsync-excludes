@@ -63,3 +63,6 @@ Thumbs.db
 
 # golang Cache
 go/pkg/mod/cache
+
+# Java
+.java
