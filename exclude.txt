@@ -1,6 +1,5 @@
 .gvfs
 .cache/*
-.thumbnails/*
 .local/share/[Tt]rash*
 *.backup*
 *~
